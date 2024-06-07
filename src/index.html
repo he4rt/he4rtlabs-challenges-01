@@ -1,15 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Freela - He4rtDevs</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <div>
-      <h1>Olá mundo.</h1>
-    </div>
-    <script src="./main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2, h3, p { margin: 0.5em 0; }
+        pre { background: #f3f3f3; padding: 10px; }
+        .signature { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <p><em>java.lang.Object</em> ↳ <strong>Calculadora</strong></p>
+    <p>
+        <strong>Version:</strong> 1.0<br>
+        <strong>Since:</strong> 2024-06-07
+    </p>
+    <h2>Class Calculadora</h2>
+    <p>Classe Calculadora que proporciona operacions bàsiques de càlcul.</p>
+    <p>Aquesta classe permet realitzar sumes, restes, multiplicacions i divisions de nombres enters.</p>
+    
+    <h3>Constructor Summary</h3>
+    <pre class="signature">Calculadora()</pre>
+    
+    <h3>Method Summary</h3>
+    <pre class="signature">int suma(int a, int b)</pre>
+    <p>Suma dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> La suma de a i b.</li>
+    </ul>
+
+    <pre class="signature">int resta(int a, int b)</pre>
+    <p>Resta dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> La resta de b de a.</li>
+    </ul>
+
+    <pre class="signature">int multiplica(int a, int b)</pre>
+    <p>Multiplica dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> El producte de a i b.</li>
+    </ul>
+
+    <pre class="signature">int divideix(int a, int b) throws ArithmeticException</pre>
+    <p>Divideix dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> El quocient de a dividit per b.</li>
+        <li><strong>Throws:</strong> <code>ArithmeticException</code> - si b és 0.</li>
+    </ul>
+    
+    <h3>Method Detail</h3>
+    <h4>suma</h4>
+    <pre class="signature">int suma(int a, int b)</pre>
+    <p>Suma dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> La suma de a i b.</li>
+    </ul>
+
+    <h4>resta</h4>
+    <pre class="signature">int resta(int a, int b)</pre>
+    <p>Resta dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> La resta de b de a.</li>
+    </ul>
+
+    <h4>multiplica</h4>
+    <pre class="signature">int multiplica(int a, int b)</pre>
+    <p>Multiplica dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> El producte de a i b.</li>
+    </ul>
+
+    <h4>divideix</h4>
+    <pre class="signature">int divideix(int a, int b) throws ArithmeticException</pre>
+    <p>Divideix dos nombres enters.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>int a</code> - El primer nombre enter.</li>
+            <li><code>int b</code> - El segon nombre enter.</li>
+        </ul>
+        <li><strong>Returns:</strong> El quocient de a dividit per b.</li>
+        <li><strong>Throws:</strong> <code>ArithmeticException</code> - si b és 0.</li>
+    </ul>
+
+    <h4>main</h4>
+    <pre class="signature">static void main(String[] args)</pre>
+    <p>Punt d'entrada per a l'execució de la calculadora.</p>
+    <ul>
+        <li><strong>Parameters:</strong></li>
+        <ul>
+            <li><code>String[] args</code> - Arguments de la línia de comandes (no s'utilitzen).</li>
+        </ul>
+    </ul>
+</body>
 </html>
